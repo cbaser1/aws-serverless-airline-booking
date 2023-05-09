@@ -31,7 +31,7 @@ Resources:
     Type: AWS::Serverless::Application
     Properties:
       Location:
-        ApplicationId: arn:aws:serverlessrepo:us-central-1:375983427419:applications/api-lambda-stripe-charge
+        ApplicationId: arn:aws:serverlessrepo:eu-central-1:375983427419:applications/api-lambda-stripe-charge
         SemanticVersion: 4.4.2
       Parameters:
         EnableInstantCapture: "false"
